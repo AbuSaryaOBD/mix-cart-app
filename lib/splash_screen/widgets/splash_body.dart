@@ -28,7 +28,7 @@ class SplashBody extends StatelessWidget {
                 Spacer(flex: 2),
                 SplashDots(length: splashes.length),
                 Spacer(flex: 3),
-                SplashButton(),
+                SplashButtons(),
                 Spacer(flex: 2),
               ],
             ),
