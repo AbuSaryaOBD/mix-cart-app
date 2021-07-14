@@ -1,1 +1,1 @@
-const kAnimationDuration = Duration(milliseconds: 200);
+const kAnimationDuration = Duration(milliseconds: 300);

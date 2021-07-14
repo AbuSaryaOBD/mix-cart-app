@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:mix_cart_app/constants/colors.dart';
+import 'package:mix_cart_app/constants/constants.dart';
+import 'package:mix_cart_app/core/routes.dart';
 import 'package:mix_cart_app/splash_screen/splash_screen.dart';
 
 class MixCart extends StatelessWidget {
@@ -17,7 +18,8 @@ class MixCart extends StatelessWidget {
         ),
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: SplashPage(),
+      initialRoute: SplashPage.routeName,
+      routes: routes,
     );
   }
 }
