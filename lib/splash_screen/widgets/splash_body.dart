@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:mix_cart_app/constants/constants.dart';
 import 'package:mix_cart_app/splash_screen/widgets/widgets.dart';
+import 'package:sizer/sizer.dart';
 
 class SplashBody extends StatelessWidget {
   const SplashBody({Key? key, required this.splashes}) : super(key: key);
@@ -14,10 +14,10 @@ class SplashBody extends StatelessWidget {
           const SizedBox(height: 25),
           Image.asset(
             'assets/images/mix_title.png',
-            width: getProperScreenWidth(265),
+            width: 75.w,
           ),
           SizedBox(
-            width: getProperScreenWidth(265),
+            width: 75.w,
             child: Divider(),
           ),
           SplashSlides(splashes: splashes),

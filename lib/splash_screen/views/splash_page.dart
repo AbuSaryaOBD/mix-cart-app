@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:mix_cart_app/constants/constants.dart';
 import 'package:mix_cart_app/splash_screen/cubit/splash_cubit.dart';
 import 'package:mix_cart_app/splash_screen/widgets/widgets.dart';
 
@@ -11,7 +10,6 @@ class SplashPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    SizeConfig.init(context);
     final List<Map<String, String>> _splashes = [
       {
         'desc': 'مرحبا بكم في مكس كارت\nالخيار الأفضل للتسوق الالكتروني',

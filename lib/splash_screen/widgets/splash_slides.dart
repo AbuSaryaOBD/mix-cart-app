@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:mix_cart_app/constants/constants.dart';
 import 'package:mix_cart_app/splash_screen/cubit/splash_cubit.dart';
+import 'package:sizer/sizer.dart';
 
 class SplashSlides extends StatefulWidget {
   const SplashSlides({Key? key, required this.splashes}) : super(key: key);
@@ -65,14 +66,16 @@ class SplashSlide extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: [
+        Spacer(),
         Text(
           description,
           textAlign: TextAlign.center,
+          style: TextStyle(fontSize: 3.5.w),
         ),
         Spacer(flex: 2),
         Image.asset(
           image,
-          height: getProperScreenHeight(265),
+          height: 27.h,
         ),
       ],
     );
