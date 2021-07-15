@@ -29,7 +29,6 @@ class _SplashSlidesState extends State<SplashSlides> {
           );
         },
         child: PageView.builder(
-          reverse: true,
           itemCount: widget.splashes.length,
           controller: _contentController,
           itemBuilder: (context, index) {

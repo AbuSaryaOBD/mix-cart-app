@@ -1,6 +1,6 @@
 name: mix_cart_app
 description: A new Flutter project.
-publish_to: 'none'
+publish_to: "none"
 version: 1.0.0+1
 
 environment:
@@ -9,6 +9,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_localizations:
+    sdk: flutter
   cupertino_icons: ^1.0.2
   flutter_bloc: ^7.0.1
   equatable: ^2.0.3
@@ -16,6 +18,9 @@ dependencies:
   flutter_svg: ^0.22.0
   sizer: ^2.0.13
   device_preview: ^0.7.4
+  intl: ^0.17.0
+  flare_flutter: ^3.0.1
+  simple_animations: ^3.1.1
 
 dev_dependencies:
   flutter_test:
@@ -23,6 +28,7 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  generate: true
   assets:
     - assets/images/
     - assets/icons/

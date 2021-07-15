@@ -17,7 +17,7 @@ class SplashDots extends StatelessWidget {
           children: List.generate(
             length,
             (index) => _buildDot(index: index, page: state),
-          ).reversed.toList(),
+          ),
         );
       },
     );
@@ -31,7 +31,7 @@ class SplashDots extends StatelessWidget {
       width: page == index ? 5.w : 1.5.w,
       decoration: BoxDecoration(
         color: page == index ? kSecondaryColor : Colors.grey.shade400,
-        borderRadius: BorderRadius.circular(3),
+        borderRadius: kRadiusEllipsis,
       ),
     );
   }

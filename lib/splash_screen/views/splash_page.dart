@@ -6,7 +6,7 @@ import 'package:mix_cart_app/splash_screen/widgets/widgets.dart';
 class SplashPage extends StatelessWidget {
   const SplashPage({Key? key}) : super(key: key);
 
-  static const String routeName = '/SplashPage';
+  static const String routeName = '/splash_page';
 
   @override
   Widget build(BuildContext context) {
@@ -26,7 +26,7 @@ class SplashPage extends StatelessWidget {
     ];
 
     return BlocProvider(
-      create: (context) => SplashCubit(_splashes.length),
+      create: (context) => SplashCubit(_splashes.length, context),
       child: Scaffold(
         body: SplashBody(splashes: _splashes),
       ),

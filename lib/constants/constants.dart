@@ -1,2 +1,2 @@
-export 'animation.dart';
+export 'styles.dart';
 export 'colors.dart';

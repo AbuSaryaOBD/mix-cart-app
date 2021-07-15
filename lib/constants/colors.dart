@@ -12,3 +12,5 @@ const kPrimaryGradientColor = LinearGradient(
 );
 const kSecondaryColor = Color(0xFFff991a);
 const kTextColor = Color(0xFF757575);
+const kSuggestionColor = Color(0xFFE9E9E9);
+const kErrorColor = Color(0xFFe74c3c);
