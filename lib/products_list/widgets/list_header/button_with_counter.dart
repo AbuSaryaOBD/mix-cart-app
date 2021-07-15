@@ -25,7 +25,7 @@ class ButtonWithCounter extends StatelessWidget {
             width: 12.w,
             height: 12.w,
             decoration: BoxDecoration(
-              color: kSuggestionColor,
+              color: kSuggestionColor.withOpacity(0.5),
               shape: BoxShape.circle,
             ),
             child: Icon(

@@ -14,8 +14,8 @@ class OffersBanner extends StatelessWidget {
       height: SizerUtil.deviceType == DeviceType.mobile ? 11.h : 15.h,
       width: 90.w,
       decoration: BoxDecoration(
-        color: Color(0xFF410099),
-        borderRadius: kRadiusRounded,
+        color: kPrimaryColor,
+        borderRadius: kRadiusRounded2,
       ),
       child: PlasmaBackground(
         child: Center(

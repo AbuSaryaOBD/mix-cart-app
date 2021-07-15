@@ -13,7 +13,7 @@ class SearchField extends StatelessWidget {
       width: 60.w,
       height: 11.w,
       decoration: BoxDecoration(
-        color: kSuggestionColor,
+        color: kSuggestionColor.withOpacity(0.5),
         borderRadius: kRadiusEllipsis,
       ),
       child: TextField(

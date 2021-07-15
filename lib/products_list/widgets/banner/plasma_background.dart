@@ -13,7 +13,7 @@ class PlasmaBackground extends StatelessWidget {
     return PlasmaRenderer(
       type: PlasmaType.infinity,
       particles: 7,
-      color: Color(0xFF330373),
+      color: Color(0xFF022b44),
       blur: 0.7,
       size: 0.3,
       speed: 0.5,
