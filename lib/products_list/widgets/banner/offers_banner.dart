@@ -10,25 +10,39 @@ class OffersBanner extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Stack(
-      children: [
-        PlasmaBackground(),
-        Container(
-          padding: EdgeInsets.symmetric(horizontal: 3.h, vertical: 20),
-          child: Text.rich(
-            TextSpan(
-              text: 'كوبونات خصم\n',
-              style: TextStyle(color: Colors.white, height: 1.3),
-              children: [
-                TextSpan(
-                  text: 'حسم 20% لمدة شهر',
-                  style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+    return Container(
+      height: SizerUtil.deviceType == DeviceType.mobile ? 11.h : 15.h,
+      width: 90.w,
+      decoration: BoxDecoration(
+        color: Color(0xFF410099),
+        borderRadius: kRadiusRounded,
+      ),
+      child: PlasmaBackground(
+        child: Center(
+          child: Container(
+            width: 80.w,
+            child: Text.rich(
+              TextSpan(
+                text: 'كوبونات خصم\n',
+                style: TextStyle(
+                  color: Colors.white,
+                  height: 1.3,
+                  fontSize: 10.sp,
                 ),
-              ],
+                children: [
+                  TextSpan(
+                    text: 'حسم 20% لمدة شهر',
+                    style: TextStyle(
+                      fontSize: 13.sp,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                ],
+              ),
             ),
           ),
         ),
-      ],
+      ),
     );
   }
 }
