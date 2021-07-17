@@ -14,3 +14,4 @@ const kSecondaryColor = Color(0xFFff991a);
 const kTextColor = Color(0xFF757575);
 const kSuggestionColor = Color(0xFFa9a9a9);
 const kErrorColor = Color(0xFFe74c3c);
+const kBlack = Color(0xFF2e4255);

@@ -22,7 +22,7 @@ class SectionTitle extends StatelessWidget {
           Text(title, style: TextStyle(fontSize: 3.5.w)),
           GestureDetector(
             child: Text(
-              'استعرض المزيد',
+              'المزيد',
               style: TextStyle(fontSize: 2.5.w, color: kSuggestionColor),
             ),
             onTap: onTap,

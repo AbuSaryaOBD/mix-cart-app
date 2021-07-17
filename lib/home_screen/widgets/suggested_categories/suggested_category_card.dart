@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:mix_cart_app/constants/constants.dart';
 import 'package:sizer/sizer.dart';
 
-class SpecialOfferCard extends StatelessWidget {
-  const SpecialOfferCard({
+class SuggestedCategoryCard extends StatelessWidget {
+  const SuggestedCategoryCard({
     Key? key,
     required this.category,
     required this.image,
@@ -38,8 +38,8 @@ class SpecialOfferCard extends StatelessWidget {
                         begin: Alignment.topCenter,
                         end: Alignment.bottomCenter,
                         colors: [
-                          Color(0x55343434),
-                          Color(0x22343434),
+                          Color(0x75343434),
+                          Color(0x45343434),
                         ]),
                   ),
                 ),

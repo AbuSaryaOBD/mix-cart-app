@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:mix_cart_app/home_screen/widgets/categories_slide/categories_button.dart';
 import 'package:sizer/sizer.dart';
+
+import 'categories_button.dart';
 
 class CategoriesSlide extends StatelessWidget {
   const CategoriesSlide({Key? key}) : super(key: key);

@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:mix_cart_app/home_screen/widgets/section_title.dart';
-import 'package:mix_cart_app/home_screen/widgets/special_offers/special_offer_card.dart';
 import 'package:sizer/sizer.dart';
 
-class SpecialOffers extends StatelessWidget {
-  const SpecialOffers({
+import 'suggested_category_card.dart';
+
+class SuggestedCategories extends StatelessWidget {
+  const SuggestedCategories({
     Key? key,
   }) : super(key: key);
 
@@ -12,19 +13,19 @@ class SpecialOffers extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        SectionTitle(title: 'عروض خاصة', onTap: () {}),
+        SectionTitle(title: 'تصنيفات مقترحة', onTap: () {}),
         SizedBox(height: 1.h),
         SingleChildScrollView(
           scrollDirection: Axis.horizontal,
           child: Row(
             children: [
-              SpecialOfferCard(
+              SuggestedCategoryCard(
                 category: 'هواتف محمولة',
                 desc: 'iPhone / Android',
                 image: 'assets/images/special_offers_1.png',
                 onTap: () {},
               ),
-              SpecialOfferCard(
+              SuggestedCategoryCard(
                 category: 'مقتنيات وأزياء',
                 desc: 'أجود أنواع الجلد والقماش',
                 image: 'assets/images/special_offers_2.png',
