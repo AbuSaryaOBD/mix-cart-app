@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:mix_cart_app/constants/constants.dart';
-import 'package:mix_cart_app/products_list/products_list.dart';
+import 'package:mix_cart_app/home_screen/home_screen.dart';
 import 'package:mix_cart_app/splash_screen/cubit/splash_cubit.dart';
 import 'package:sizer/sizer.dart';
 
@@ -68,7 +68,7 @@ class SplashButtons extends StatelessWidget {
         ],
       ),
       onTap: () =>
-          Navigator.pushReplacementNamed(context, ProductsList.routeName),
+          Navigator.pushReplacementNamed(context, HomeScreen.routeName),
     );
   }
 }

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:mix_cart_app/products_list/widgets/categories_slide/categories_button.dart';
+import 'package:mix_cart_app/home_screen/widgets/categories_slide/categories_button.dart';
 import 'package:sizer/sizer.dart';
 
 class CategoriesSlide extends StatelessWidget {

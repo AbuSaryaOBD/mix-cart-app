@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:mix_cart_app/products_list/widgets/widgets.dart';
+import 'package:mix_cart_app/home_screen/widgets/home_header/button_with_counter.dart';
+import 'package:mix_cart_app/home_screen/widgets/home_header/search_field.dart';
 import 'package:sizer/sizer.dart';
 
 class ListHeader extends StatelessWidget {

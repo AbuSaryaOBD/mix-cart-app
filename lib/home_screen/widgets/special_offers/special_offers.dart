@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:mix_cart_app/products_list/widgets/section_title.dart';
-import 'package:mix_cart_app/products_list/widgets/special_offers/special_offer_card.dart';
+import 'package:mix_cart_app/home_screen/widgets/section_title.dart';
+import 'package:mix_cart_app/home_screen/widgets/special_offers/special_offer_card.dart';
 import 'package:sizer/sizer.dart';
 
 class SpecialOffers extends StatelessWidget {

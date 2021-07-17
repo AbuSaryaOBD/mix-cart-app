@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:mix_cart_app/constants/constants.dart';
-import 'package:mix_cart_app/products_list/widgets/banner/plasma_background.dart';
+import 'package:mix_cart_app/home_screen/widgets/banner/plasma_background.dart';
 import 'package:sizer/sizer.dart';
 
 class OffersBanner extends StatelessWidget {

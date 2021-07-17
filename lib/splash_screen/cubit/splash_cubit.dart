@@ -1,6 +1,6 @@
 import 'package:bloc/bloc.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:mix_cart_app/products_list/products_list.dart';
+import 'package:mix_cart_app/home_screen/home_screen.dart';
 
 class SplashCubit extends Cubit<int> {
   SplashCubit(this.length, this.context) : super(0);
@@ -11,7 +11,7 @@ class SplashCubit extends Cubit<int> {
     if (state < this.length - 1)
       this.emit(state + 1);
     else
-      Navigator.pushReplacementNamed(context, ProductsList.routeName);
+      Navigator.pushReplacementNamed(context, HomeScreen.routeName);
   }
 
   void setIndex(int index) {

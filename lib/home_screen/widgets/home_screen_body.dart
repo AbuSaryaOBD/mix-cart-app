@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:mix_cart_app/products_list/widgets/categories_slide/categories_slide.dart';
-import 'package:mix_cart_app/products_list/widgets/special_offers/special_offers.dart';
-import 'package:mix_cart_app/products_list/widgets/widgets.dart';
+import 'package:mix_cart_app/home_screen/widgets/banner/offers_banner.dart';
+import 'package:mix_cart_app/home_screen/widgets/categories_slide/categories_slide.dart';
+import 'package:mix_cart_app/home_screen/widgets/home_header/home_header.dart';
+import 'package:mix_cart_app/home_screen/widgets/special_offers/special_offers.dart';
 import 'package:sizer/sizer.dart';
 
-class ProductsListBody extends StatelessWidget {
-  const ProductsListBody({
+class HomeScreenBody extends StatelessWidget {
+  const HomeScreenBody({
     Key? key,
   }) : super(key: key);
 
