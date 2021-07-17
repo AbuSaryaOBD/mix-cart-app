@@ -38,8 +38,8 @@ class SuggestedCategoryCard extends StatelessWidget {
                         begin: Alignment.topCenter,
                         end: Alignment.bottomCenter,
                         colors: [
-                          Color(0x75343434),
-                          Color(0x45343434),
+                          Color(0x90343434),
+                          Color(0x60343434),
                         ]),
                   ),
                 ),
