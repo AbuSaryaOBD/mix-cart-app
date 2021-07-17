@@ -1,2 +1,3 @@
-export 'home_screen_body.dart';
-export 'home_app_bar/home_app_bar.dart';
+export 'home_header/header_background.dart';
+export 'home_details/home_details.dart';
+export 'home_bottom_navigation/home_bottom_navigation.dart';

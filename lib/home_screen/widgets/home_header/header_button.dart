@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:mix_cart_app/constants/constants.dart';
 import 'package:sizer/sizer.dart';
 
-class ButtonWithCounter extends StatelessWidget {
-  const ButtonWithCounter({
+class HeaderButton extends StatelessWidget {
+  const HeaderButton({
     Key? key,
     required this.icon,
     required this.number,
@@ -20,7 +20,7 @@ class ButtonWithCounter extends StatelessWidget {
         IconButton(
           icon: Icon(icon),
           iconSize: SizerUtil.deviceType == DeviceType.mobile ? 30 : 5.w,
-          color: kBlack.withOpacity(0.9),
+          color: kWhite,
           onPressed: onPressed,
         ),
         if (number > 0)

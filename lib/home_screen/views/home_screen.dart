@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:mix_cart_app/home_screen/cubit/offers_cubit.dart';
 import 'package:mix_cart_app/home_screen/widgets/widgets.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -8,10 +10,17 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: homeAppBar(),
-      body: HomeScreenBody(),
-      drawer: homeDrawer(),
+    return BlocProvider(
+      create: (context) => OffersCubit(),
+      child: Scaffold(
+        body: Stack(
+          children: [
+            HeaderBackground(),
+            HomeDetails(),
+          ],
+        ),
+        bottomNavigationBar: HomeBottomNavigation(),
+      ),
     );
   }
 }
