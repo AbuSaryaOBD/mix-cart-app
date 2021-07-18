@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:mix_cart_app/home_screen/cubit/offers_cubit.dart';
+import 'package:mix_cart_app/home_screen/widgets/home_header/home_header.dart';
 import 'package:mix_cart_app/home_screen/widgets/widgets.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -13,10 +14,9 @@ class HomeScreen extends StatelessWidget {
     return BlocProvider(
       create: (context) => OffersCubit(),
       child: Scaffold(
-        body: Stack(
+        body: Column(
           children: [
-            HeaderBackground(),
-            HomeDetails(),
+            HomeHeader(),
           ],
         ),
         drawer: HomeDrawer(),

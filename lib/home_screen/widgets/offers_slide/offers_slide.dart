@@ -22,8 +22,7 @@ class OffersSlide extends StatelessWidget {
     ];
 
     return Container(
-      width: 100.w,
-      height: 16.h,
+      height: 15.h,
       child: Column(
         children: [
           Expanded(

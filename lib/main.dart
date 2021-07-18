@@ -5,7 +5,7 @@ import 'package:mix_cart_app/core/mix_cart.dart';
 void main() {
   runApp(
     DevicePreview(
-      enabled: false,
+      enabled: true,
       builder: (context) => MixCart(),
     ),
   );

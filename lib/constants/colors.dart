@@ -16,4 +16,5 @@ const kSuggestionColor = Color(0xFFa9a9a9);
 const kErrorColor = Color(0xFFe74c3c);
 const kBlack = Color(0xFF2e4255);
 const kWhite = Color(0xFFecf0f1);
+const kGrey = Color(0xFFdcdcdc);
 const kOrange = Color(0xFFee991a);

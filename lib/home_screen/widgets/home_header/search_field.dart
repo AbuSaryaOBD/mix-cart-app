@@ -10,13 +10,13 @@ class SearchField extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Positioned(
-      top: 13,
-      right: 2.5.w + 70,
+      top: 1.5.h,
+      right: 20.w,
       child: Container(
         width: 70.w,
-        height: 45,
+        height: 6.h,
         decoration: BoxDecoration(
-          color: kSuggestionColor.withOpacity(0.5),
+          color: kGrey,
           borderRadius: kRadiusEllipsis,
         ),
         child: TextField(
@@ -29,7 +29,8 @@ class SearchField extends StatelessWidget {
               Icons.search,
               size: 6.w,
             ),
-            contentPadding: EdgeInsets.symmetric(horizontal: 20, vertical: 5),
+            contentPadding:
+                EdgeInsets.symmetric(horizontal: 3.w, vertical: 1.h),
           ),
         ),
       ),

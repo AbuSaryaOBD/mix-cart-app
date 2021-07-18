@@ -9,7 +9,6 @@ class HeaderBar extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       padding: EdgeInsets.symmetric(horizontal: 2.5.w),
-      width: 100.w,
       height: 5.h,
       child: Row(
         children: [
